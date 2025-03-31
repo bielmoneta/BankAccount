@@ -20,7 +20,7 @@ public class Program {
         sc.nextLine();
         String holder = sc.nextLine();
 
-        System.out.print("Is there na initial deposit (y/n)? ");
+        System.out.print("Is there an initial deposit (y/n)? ");
         char response = sc.next().charAt(0);
         if(response == 'y'){
             System.out.print("Enter initial deposit value: ");
@@ -38,7 +38,7 @@ public class Program {
         System.out.print("Enter a deposit value: ");
         double depositValue = sc.nextDouble();
         account.deposit(depositValue);
-        System.out.println("Updated accound data: ");
+        System.out.println("Updated account data: ");
         System.out.println(account);
 
         System.out.println();
